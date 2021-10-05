@@ -11,7 +11,7 @@ var letters = '01010101010101010101111010101010101001111000001110101001010101010
 letters = letters.split('');
 
 // Setting up the columns
-var fontSize = 10,
+var fontSize = 20,
     columns = canvas.width / fontSize;
 
 // Setting up the drops
