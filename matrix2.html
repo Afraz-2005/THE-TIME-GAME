@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AWAITING FATE</title>
+    <link rel="stylesheet" href="./src/styles/matrix.css" />
+  </head>
+  <body>
+    <div class="matrixcon">
+      <h1 style="color: white" class="m1">The Time Now Is</h1>
+      <h2 class="time m1" id="time" style="color: white"></h2>
+
+      <canvas> </canvas>
+    </div>
+    <script>
+    let myComputerElements = ['U ARE CURSED', 'Someone shall fulfill your 3 wishes. Contact me, I might be the one too', 'Your future is dark'];
+
+      setTimeout(function () {
+        let compRand = myComputerElements[Math.floor(Math.random() * myComputerElements.length)];
+
+        document.querySelector(".m1").innerText = compRand;
+        document.querySelector(".time").innerText = " ";
+      }, 3000);
+    </script>
+
+    <script src="./src/scripts/matrix2.js"></script>
+    <script src="./src/scripts/time.js"></script>
+  </body>
+</html>
