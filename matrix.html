@@ -13,15 +13,8 @@
       <h2 class="time m1" id="time" style="color: white"></h2>
       <canvas> </canvas>
     </div>
-    <script>
-        let myComputerElements = ['U ARE CURSED', 'Someone shall fulfill your 3 wishes. Contact me, I might be the one too', 'Your future is dark', "I'm gonna put some dirt in your eye", "BE AWARE!"];
+    <script src="./src/scripts/guess.js"></script>
 
-      setTimeout(function () {
-        let compRand = myComputerElements[Math.floor(Math.random() * myComputerElements.length)];
-        document.querySelector(".m1").innerHTML = compRand;
-        document.querySelector(".time").innerText = "";
-      }, 3000);
-    </script>
 
     <script src="./src/scripts/matrix.js"></script>
     <script src="./src/scripts/time.js"></script>
