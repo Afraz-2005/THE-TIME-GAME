@@ -11,10 +11,17 @@
 }
 .c1{
     font-size: calc(30px + 3vw);
+    color: rgb(255, 255, 255);
 }
 .c2{
     font-size: calc(20px + 2vw);
+    color: cyan;
 }
+body{
+    top: 0;
+    background-image: linear-gradient(to right top, rgb(108, 255, 191), rgb(106, 106, 255), rgb(255, 121, 255));
+}
+
 .container1{
     display: flex;
     justify-content: center;
@@ -35,28 +42,35 @@
 }
 .box1{
     background-color: black;
-    border: 4px solid coral;
     padding: 100px;
+}
+.box:hover{
+    border-radius: 40px;
+    transition: 0.3s;
+    border: 4px solid rgb(74, 255, 165);
+    color: rgb(74, 255, 165);
+    transform: scale(1.2);
+
 }
 .box2{
     background-color: black;
-    border: 4px solid coral;
     padding: 110px;
 }
 .box3{
     background-color: black;
-    border: 4px solid coral;
     padding: 100px;
 }
 .box4{
     background-color: black;
-    border: 4px solid coral;
     padding: 120px;
 }
 .box{
-    color: coral;
+    color: cyan;
     font-family: 'Gemunu Libre', sans-serif;
     font-weight: 400 !important;
+    transition: 0.5s;
+    border: 4px solid cyan;
+
 
 }
 .c2{
