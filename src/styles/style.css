@@ -83,3 +83,36 @@ body{
         font-size: calc(10px + 1vw);
     }
 }
+.footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+}
+.footer h2{
+    font-size: 40px;
+    font-family: 'Gemunu Libre', sans-serif;
+    text-align: center;
+}
+.footer .header{
+    padding-right: 20px;
+}
+.footer a{
+    font-size: 30px;
+    font-family: 'Gemunu Libre', sans-serif;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+.child2, .child1{
+    background-color: black;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 2px 3px 0px 3px rgb(104, 104, 255);
+    transition: 0.5s;
+}
+.child1:hover, .child2:hover{
+    transform: scale(1.2);
+}
